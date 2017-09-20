@@ -11,7 +11,6 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
 
@@ -28,3 +27,7 @@ Route::get('/produtos/novo', 'ProdutoController@novo');
 Route::get('/vendas/novo', 'VendaController@novo');
 Route::get('/vendas/realizadas', 'VendaController@realizadas');
 Route::post('/vendas/salvar', 'VendaController@salvar');
+/* LOGIN */
+
+Route::get('/', 'LoginController@index');
+Route::post('/login', 'LoginController@login');
