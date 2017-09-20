@@ -27,7 +27,7 @@ class ProdutoController extends Controller
 
     public function novo()
     {
-        return view('produto.form-add-produto');
+        return view('produto.produto-add');
     }
 
     public function adiciona()

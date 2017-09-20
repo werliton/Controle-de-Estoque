@@ -31,3 +31,8 @@ Route::post('/vendas/salvar', 'VendaController@salvar');
 
 Route::get('/', 'LoginController@index');
 Route::post('/login', 'LoginController@login');
+
+/* FUNCIONARIO*/
+Route::get('/funcionario/novo', 'FuncionarioController@novo');
+/* ITEM*/
+Route::get('/item/novo', 'ItemController@novo');
