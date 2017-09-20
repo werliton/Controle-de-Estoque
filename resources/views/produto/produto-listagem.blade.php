@@ -46,7 +46,11 @@
                         <td class=" ">May 23, 2014 11:47:56 PM</td>
                         <td class=" ">121000210 <i class="success fa fa-long-arrow-up"></i></td>
                         <td class="a-right a-right ">$7.45</td>
-                        <td class=" last"><a href="#">View</a>
+                        <td>
+                            <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                            <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Editar </a>
+                            <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Deletar </a>
+                        </td>
                         </td>
                     </tr>
                     <tr class="odd pointer">
@@ -58,7 +62,11 @@
                         <td class=" ">121000208 <i class="success fa fa-long-arrow-up"></i>
                         </td>
                         <td class=" ">John Blank L</td>
-                        <td class=" last"><a href="#">View</a>
+                        <td>
+                            <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                            <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
+                            <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
+                          </td>
                         </td>
                     </tr>
                     <tr class="even pointer">

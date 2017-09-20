@@ -34,5 +34,7 @@ Route::post('/login', 'LoginController@login');
 
 /* FUNCIONARIO*/
 Route::get('/funcionario/novo', 'FuncionarioController@novo');
-/* ITEM*/
+/* ITEM */
 Route::get('/item/novo', 'ItemController@novo');
+/* ESTOQUE */
+Route::get('/estoque/transacoes', 'EstoqueController@transacoes');

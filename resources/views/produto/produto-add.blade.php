@@ -44,7 +44,7 @@
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <select id="heard" class="form-control" required>
-                                <option value="">Choose..</option>
+                                <option value="">Escolha uma marca..</option>
                                 <option value="press">Press</option>
                                 <option value="net">Internet</option>
                                 <option value="mouth">Word of mouth</option>
@@ -52,13 +52,7 @@
 
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Fabricante</label>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text"
-                                   name="middle-name">
-                        </div>
-                    </div>
+
                     <div class="form-group">
                         <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Unidade de
                             medida</label>
@@ -68,8 +62,10 @@
                         </div>
                     </div>
 
+                    <div class="ln_solid"></div>
+
                     <div class="form-group">
-                        <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Preço</label>
+                        <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Preço de venda</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text"
                                    name="middle-name">
@@ -90,15 +86,7 @@
                             Mínimo</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text"
-                                   name="middle-name">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Fabricante</label>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text"
-                                   name="middle-name">
+                                   name="middle-name" placeholder="Digite a porcentagem de estoque mínimo">
                         </div>
                     </div>
 
