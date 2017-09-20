@@ -19,6 +19,6 @@ class LoginController extends Controller
 
     public function login()
     {
-        return redirect()->action('ProdutoController@lista');
+        return redirect()->action('HomeController@index');
     }
 }

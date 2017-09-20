@@ -8,8 +8,6 @@
 
             <div class="x_content">
 
-                <p>Add class <code>bulk_action</code> to table for bulk actions options on row select</p>
-
                 <div class="table-responsive">
                     <table class="table table-striped jambo_table bulk_action">
                         <thead>

@@ -18,8 +18,8 @@
 
     <br/>
     <!-- sidebar menu -->
-@include('layout.menu')
-<!-- /sidebar menu -->
+    @include('layout.menu')
+    <!-- /sidebar menu -->
 
     <!-- /menu footer buttons -->
     <div class="sidebar-footer hidden-small">
