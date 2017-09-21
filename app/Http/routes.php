@@ -19,10 +19,10 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
-Route::get('/produtos', 'ProdutoController@lista');
-Route::get('/produtos/mostra/{id}', 'ProdutoController@mostra');
+Route::get('/produto', 'ProdutoController@lista');
+Route::get('/produto/mostra/{id}', 'ProdutoController@mostra');
 //->where('id','[0-9]+');
-Route::get('/produtos/novo', 'ProdutoController@novo');
+Route::get('/produto/novo', 'ProdutoController@novo');
 /* VENDAS */
 Route::get('/vendas/novo', 'VendaController@novo');
 Route::get('/vendas/realizadas', 'VendaController@realizadas');

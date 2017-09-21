@@ -12,6 +12,6 @@ namespace App\Http\Controllers;
 class EstoqueController extends Controller
 {
     public function transacoes(){
-        return view('estoque.estoque-listagem');
+        return view('estoque.estoque-listagem')->with('titulo','Materiais');
     }
 }

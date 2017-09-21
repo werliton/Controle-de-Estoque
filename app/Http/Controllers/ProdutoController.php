@@ -14,10 +14,13 @@ use App\Produto;
 
 class ProdutoController extends Controller
 {
+    private $titulo = "Materiais";
     public function lista()
     {
         $produtos = Produto::all();
-        return view('listagem')->with('produtos',$produtos);
+        return view('listagem')
+            ->with('produtos',$produtos)
+            ->with('titulo',$this->titulo);
     }
 
     public function mostra($id){
@@ -27,7 +30,8 @@ class ProdutoController extends Controller
 
     public function novo()
     {
-        return view('produto.produto-add');
+        return view('produto.produto-add')
+            ->with('titulo',$this->titulo);
     }
 
     public function adiciona()
