@@ -7,7 +7,7 @@
  */
 
 namespace App\Http\Controllers;
-
+use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
@@ -17,8 +17,24 @@ class LoginController extends Controller
         return view('login.login');
     }
 
-    public function login()
+    public function login(Request $request)
     {
-        return redirect()->action('HomeController@index');
+        $login = $request->input('login');
+        $senha = $request->input('senha');
+
+        // Chamar layouts
+        // ADMIN
+        if($login == 'admin'){
+            return redirect()->action('HomeController@index');
+        }
+        if($login == 'atendente'){
+            return redirect()->action('HomeController@atendente');
+        }
+
+        if($login == 'caixa'){
+            return redirect()->action('HomeController@caixa');
+        }
+
+        //return redirect()->action('HomeController@index');
     }
 }

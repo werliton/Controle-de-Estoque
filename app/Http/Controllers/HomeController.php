@@ -33,4 +33,14 @@ class HomeController extends Controller {
 		return view('home');
 	}
 
+    public function caixa()
+    {
+        return view('home-caixa');
+    }
+
+    public function atendente()
+    {
+        return view('home-atendente');
+    }
+
 }

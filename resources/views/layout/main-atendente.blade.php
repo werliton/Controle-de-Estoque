@@ -18,7 +18,7 @@
 
     <br/>
     <!-- sidebar menu -->
-    @include('layout.menu-admin')
+    @include('layout.menu-atendente')
     <!-- /sidebar menu -->
 
     <!-- /menu footer buttons -->

@@ -34,6 +34,12 @@ class ProdutoController extends Controller
             ->with('titulo',$this->titulo);
     }
 
+    public function novo_atendente()
+    {
+        return view('produto.atendente.produto-add')
+            ->with('titulo',$this->titulo);
+    }
+
     public function adiciona()
     {
         Produto::create(Request::all());

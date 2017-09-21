@@ -15,4 +15,8 @@ class ItemController extends Controller
     public function novo(){
         return view('item.item-add');
     }
+
+    public function novo_atendente(){
+        return view('item.atendente.item-add');
+    }
 }

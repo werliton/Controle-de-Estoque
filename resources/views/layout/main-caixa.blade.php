@@ -18,7 +18,7 @@
 
     <br/>
     <!-- sidebar menu -->
-    @include('layout.menu-admin')
+    @include('layout.menu-caixa')
     <!-- /sidebar menu -->
 
     <!-- /menu footer buttons -->
@@ -28,7 +28,6 @@
 </div>
 
 <!-- top navigation -->
-@include('layout.top-navegation')
 <!-- /top navigation -->
 
 <!-- page content -->

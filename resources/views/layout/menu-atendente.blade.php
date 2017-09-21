@@ -5,8 +5,8 @@
 
             <li><a><i class="fa fa-book"></i> Cadastro <span class="fa fa-chevron-down"></span></a>
                 <ul class="nav child_menu">
-                    <li><a href="/produtos/novo">Produtos</a></li>
-                    <li><a href="/item/novo">Item</a></li>
+                    <li><a href="/produto/novo_atendente">Produtos</a></li>
+                    <li><a href="/item/novo_atendente">Item</a></li>
                 </ul>
             </li>
 

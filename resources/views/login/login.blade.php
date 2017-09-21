@@ -33,10 +33,10 @@
                 <form action="/login" method="post">
                     <h1>Entrar no sistema</h1>
                     <div>
-                        <input type="text" class="form-control" placeholder="Usuário" required="" />
+                        <input type="text" class="form-control" placeholder="Usuário" required="" name="login"/>
                     </div>
                     <div>
-                        <input type="password" class="form-control" placeholder="Senha" required="" />
+                        <input type="password" class="form-control" placeholder="Senha" required="" name="senha"/>
                         <input type="hidden" name="_token" value="{{csrf_token()}}" />
                     </div>
                     <div>

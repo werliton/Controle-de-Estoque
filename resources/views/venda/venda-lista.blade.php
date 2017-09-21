@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layout.main-caixa')
 @section('content')
     <div class="col-md-12 col-sm-12 col-xs-12">
         <div class="x_panel">
